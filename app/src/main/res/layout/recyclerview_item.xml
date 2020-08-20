@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    tools:context=".PhMainActivity">
+
+    <TextView
+        android:id="@+id/tv_item_title_grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10.00dp"
+        android:text="@string/student_grade"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_item_grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10.00dp"
+        app:layout_constraintLeft_toRightOf="@id/tv_item_title_grade"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="1" />
+
+    <TextView
+        android:id="@+id/tv_item_title_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50.00dp"
+        android:layout_marginTop="10.00dp"
+        android:layout_marginRight="10.00dp"
+        android:layout_marginBottom="10.00dp"
+        android:text="@string/student_number"
+        app:layout_constraintLeft_toRightOf="@id/tv_item_grade"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_item_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10.00dp"
+        app:layout_constraintLeft_toRightOf="@id/tv_item_title_number"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="2014341680"/>
+
+    <TextView
+        android:id="@+id/tv_item_title_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50.00dp"
+        android:layout_marginTop="10.00dp"
+        android:layout_marginRight="10.00dp"
+        android:layout_marginBottom="10.00dp"
+        android:text="@string/student_name"
+        app:layout_constraintLeft_toRightOf="@id/tv_item_number"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10.00dp"
+        app:layout_constraintLeft_toRightOf="@id/tv_item_title_name"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="parkho"/>
+
+</android.support.constraint.ConstraintLayout>

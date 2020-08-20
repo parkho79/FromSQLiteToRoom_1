@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">SQLite sample</string>
+
+    <string name="delete">DELETE</string>
+
+    <string name="err_no_selected_item">항목을 선택한 후 사용할 수 있습니다.</string>
+
+    <string name="insert">INSERT</string>
+
+    <string name="student_grade">학년 : </string>
+    <string name="student_name">이름 : </string>
+    <string name="student_number">학번 : </string>
+
+    <string name="update">UPDATE</string>
+
+</resources>
